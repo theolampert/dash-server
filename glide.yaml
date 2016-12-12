@@ -1,0 +1,11 @@
+package: .
+import:
+- package: github.com/fatih/color
+  version: v1.1.0
+- package: github.com/goware/cors
+- package: github.com/pressly/chi
+  version: v1.0.0
+  subpackages:
+  - middleware
+- package: github.com/urfave/cli
+  version: v1.19.1

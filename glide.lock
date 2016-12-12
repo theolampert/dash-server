@@ -1,0 +1,26 @@
+hash: 46d58b25274cf91e3269c08fac828bc1c576d9f6277e4d6fd0440b356df70a4d
+updated: 2016-12-12T20:55:43.30594955+01:00
+imports:
+- name: github.com/fatih/color
+  version: dea9d3a26a087187530244679c1cfb3a42937794
+- name: github.com/goware/cors
+  version: 6ad15f4e1489e41776ee8b008597eafea9a67fd9
+- name: github.com/mattn/go-colorable
+  version: d228849504861217f796da67fae4f6e347643f15
+- name: github.com/mattn/go-isatty
+  version: 30a891c33c7cde7b02a981314b4228ec99380cca
+- name: github.com/pressly/chi
+  version: dcbb8f81eea01aaaa5b6f9bffc229e9e9e0256bb
+  subpackages:
+  - middleware
+- name: github.com/urfave/cli
+  version: 0bdeddeeb0f650497d603c4ad7b20cfe685682f6
+- name: golang.org/x/net
+  version: b1a2d6e8c8b5fc8f601ead62536f02a8e1b6217d
+  subpackages:
+  - context
+- name: golang.org/x/sys
+  version: 478fcf54317e52ab69f40bb4c7a1520288d7f7ea
+  subpackages:
+  - unix
+testImports: []
